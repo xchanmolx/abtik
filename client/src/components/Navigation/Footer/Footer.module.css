@@ -1,0 +1,21 @@
+.Footer {
+    height: 56px;
+    width: 100%;
+    position: inherit;
+    bottom: 0;
+    background-color: #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    flex-flow: row;     
+    color: white;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {        
+        flex-flow: row;     
+    }
+}

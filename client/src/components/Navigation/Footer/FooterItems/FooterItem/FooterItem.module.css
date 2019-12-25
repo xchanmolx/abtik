@@ -1,0 +1,48 @@
+.FooterItem {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 1em;
+    display: block;
+    text-align: center;
+}
+
+.FooterItem a {
+    color: white;
+    text-decoration: none;
+    width: 100%;    
+    box-sizing: border-box;
+    display: block;
+}
+
+.FooterItem a:hover,
+.FooterItem a:active,
+.FooterItem a.active {    
+    color: #657a00;
+}
+
+@media (min-width: 500px) {
+    .FooterItem {
+        margin: 0;        
+        display: flex;
+        height: 100%;
+        flex-flow: row;
+        width: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .FooterItem a {
+        color: white;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .FooterItem a:hover,
+    .FooterItem a:active,
+    .FooterItem a.active {
+        background-color: #3075dd;
+        border-bottom: 4px solid #657a00;
+        color: white;
+    }   
+}

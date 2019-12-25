@@ -4,7 +4,9 @@
   "description": "ABTIK Rescue, responders from Aloguinsan Municipal Disaster Risk Reduction &amp; Management Office",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",

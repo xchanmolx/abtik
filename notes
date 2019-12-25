@@ -7,7 +7,7 @@ create-react-app "my-app"
 // server
 npm install express cookie-parser pg body-parser request request-promise dotenv --save
 // client
-npm install bootstrap reactstrap --save
+npm install bootstrap reactstrap react-router-dom --save
 // deployment
 heroku login
 heroku create weather-app-cm
