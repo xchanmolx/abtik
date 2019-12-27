@@ -19,6 +19,10 @@ git push heroku master
 heroku ps:scale web=1
 heroku open
 -----------------------------------------
+Useful website:
+https://clrs.cc/ -> for nice color
+https://dev.to/manindu/a-list-of-useful-npm-packages-for-react-developers-3dhg
+
 
 npm install axios --save
 npm install --save redux react-redux
