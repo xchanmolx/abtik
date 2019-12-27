@@ -1,0 +1,1 @@
+export const GET_CITYLIST = 'GET_CITYLIST';
