@@ -5,6 +5,7 @@ import {
 } from 'reactstrap';
 
 import classes from './About.module.css';
+import Footer from '../Navigation/Footer/Footer'
 
 class About extends Component {    
 
@@ -20,6 +21,7 @@ class About extends Component {
                     <hr />
                     <h6>MISSION</h6>
                     <p>To manage disasters by co-ordinating the resources of government institutions and non-governmental agencies, and developing the capacity of communities to respond effectively to disasters and improve their livelihood through social mobilization, employment generation and poverty reduction projects.</p>
+                    <Footer />
                 </div>
         );
     }    
