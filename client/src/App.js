@@ -6,6 +6,7 @@ import Home from './containers/Home/Home';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import CurrentWeather from '../src/containers/Weather/CurrentWeather';
+import Responder from './containers/Responder/Responder';
 
 class App extends Component { 
   
@@ -14,6 +15,7 @@ class App extends Component {
     let routes = (
       <Switch>
           <Route path="/weather" component={CurrentWeather} />
+          <Route path="/responder" component={Responder} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/" exact component={Home} />            

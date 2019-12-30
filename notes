@@ -5,9 +5,12 @@ npm init
 npm install create-react-app -g
 create-react-app "my-app"
 // server
+npm install concurrently nodemon --save-dev
 npm install express cookie-parser pg body-parser request request-promise dotenv --save
+npm install knex helmet cors morgan --save
 // client
 npm install bootstrap reactstrap react-router-dom react-redux redux redux-thunk antd --save
+npm install react-csv --save
 // deployment
 heroku login
 heroku create weather-app-cm
