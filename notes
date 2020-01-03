@@ -18,6 +18,7 @@ heroku addons:create heroku-postgresql:hobby-dev --name=weather-db-cm
 heroku addons:attach weather-db-cm --app=weather-app-cm
 heroku pg:psql --app weather-app-cm
 CREATE TABLE tableName (columns)
+to exit the psql - \q
 git push heroku master
 heroku ps:scale web=1
 heroku open
