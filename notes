@@ -22,6 +22,9 @@ to exit the psql - \q
 git push heroku master
 heroku ps:scale web=1
 heroku open
+
+heroku keys:add
+heroku git:remote -a yourapp
 -----------------------------------------
 Useful website:
 https://clrs.cc/ -> for nice color
