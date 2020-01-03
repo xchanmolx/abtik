@@ -1,10 +1,6 @@
 import React from 'react';
 import { Random } from 'react-animated-text';
 
-import {
-    Jumbotron
-} from 'reactstrap';
-
 import classes from './Contact.module.css';
 import Footer from '../Navigation/Footer/Footer';
 
