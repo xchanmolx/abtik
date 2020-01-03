@@ -26,7 +26,7 @@ const preparedness = () => {
                 <Row>
                     <Col>     
                         <Jumbotron>
-                        <h4><TextRandom /></h4>
+                        <h3><TextRandom /></h3>
                         <p>Bagyo, Baha, Linog, ug Sunog!</p>   
                         </Jumbotron>
                         <h4>Bagyo</h4>

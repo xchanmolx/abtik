@@ -37,6 +37,11 @@ class Home extends Component {
                 <Row>
                     <Col>     
                         <h4><TextRandom /></h4>
+                        <hr />
+                        <p><strong>SINULOG at Bonbon, Aloguinsan</strong></p>
+                        <p>Date: Saturday, January 04, 2020</p>
+                        <p>Responders are in need.</p>
+                        <hr />
                     </Col>
                 </Row>
                 <Footer />
