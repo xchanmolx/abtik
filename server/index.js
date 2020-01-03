@@ -12,25 +12,13 @@ const morgan = require('morgan') // logs requests
 const ENV = process.env.NODE_ENV;
 const PORT = process.env.PORT || 5000;
 
-// App Middleware
-const whitelist = ['http://localhost:3001']
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1 || !origin) {
-      callback(null, true)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
-  }
-}
-
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.use(helmet());
-app.use(cors(corsOptions))
+app.use(cors())
 app.use(morgan('combined')); // use 'tiny' or 'combined'
 
 app.use('/api/cities', require('./api/cities'));
