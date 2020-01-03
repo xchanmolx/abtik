@@ -103,7 +103,7 @@ class CurrentWeather extends Component {
                     <FormGroup>
                         <Input type="select" onChange={this.handleChangeCity}>
                             { this.state.cityList.length === 0 && <option>No municipalities or cities added yet.</option> }
-                            { this.state.cityList.length > 0 && <option>Select a municipality or city.</option> }
+                            { this.state.cityList.length > 0 && <option>Select a municipality or a city.</option> }
                             { this.state.cityList.map((city, i) => <option key={i}>{city}</option>) }
                         </Input>    
                     </FormGroup>
