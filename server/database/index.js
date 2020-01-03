@@ -3,7 +3,6 @@ var { Pool } = require('pg');
 const CONNECTION_STRING = process.env.DATABASE_URL || 'postgresql://postgres:free232469@localhost:5432/abtikdb';
 const SSL = process.env.NODE_ENV === 'production';
 
-
 class Database {
   constructor () {
     this._pool = new Pool({

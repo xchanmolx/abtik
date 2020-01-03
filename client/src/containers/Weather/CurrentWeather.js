@@ -15,6 +15,16 @@ import {
 import classes from './CurrentWeather.module.css';
 import Weather from '../../components/Weather/Weather';
 import Footer from '../../components/Navigation/Footer/Footer';
+import { Random } from 'react-animated-text';
+
+const TextRandom = () => (
+  <Random 
+  text="ABTIK Weather Center"
+  effect="stretch" 
+  effectDirection="up"
+  effectDuration={0.9}
+  effectChange={2.2} />
+);
 
 class CurrentWeather extends Component {   
   state = {
@@ -72,7 +82,7 @@ class CurrentWeather extends Component {
             <Row>
                 <Col>
                     <Jumbotron>
-                        <h1 className="display-3">ABTIK Weather Center</h1>
+                        <h1 className="display-3"><TextRandom /></h1>
                         <p className="lead">The current weather for your favorite municipalities or cities!</p>
                         <InputGroup>
                             <Input 

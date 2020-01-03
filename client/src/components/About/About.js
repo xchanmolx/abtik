@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Random } from 'react-animated-text';
 
 import {
     Jumbotron
@@ -7,13 +8,22 @@ import {
 import classes from './About.module.css';
 import Footer from '../Navigation/Footer/Footer'
 
+const TextRandom = () => (
+    <Random 
+    text="ABTIK, Rescue"
+    effect="stretch" 
+    effectDirection="up"
+    effectDuration={0.9}
+    effectChange={2.2} />
+);
+
 class About extends Component {    
 
     render () {
         return (
                 <div className={classes.About}>  
                     <Jumbotron>
-                    <h1>ABTIK, Rescue</h1>
+                    <h1><TextRandom /></h1>
                     <h6>Andam Batok sa mga Trahedya Ingon man sa mga Katalagman</h6>
                     </Jumbotron>
                     <p>The MDRRMO of the Municipality of Aloguinsan spearheaded by our Municipal Mayor, Cesare Ignatius G. Moreno.</p>
