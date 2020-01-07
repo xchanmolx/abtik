@@ -6,6 +6,7 @@ import {
     Card,
     Alert
 } from 'reactstrap';
+import earthquake from '../../assets/images/earthquake.png';
 
 const Linog = (props) => { 
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Linog = (props) => {
             <Button color="info" onClick={toggle} style={{ marginBottom: '1rem' }}>Linog</Button>
             <Collapse isOpen={isOpen}>
             <Card>
-            <CardBody>
+            <CardBody style={{backgroundImage: `url(${earthquake})`, color: '#FF851B'}}>
                 <Alert color="info">
                     <h4>Linog</h4>
                 </Alert>

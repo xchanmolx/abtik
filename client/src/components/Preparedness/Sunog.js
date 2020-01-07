@@ -6,6 +6,7 @@ import {
     Card,
     Alert
 } from 'reactstrap';
+import fire from '../../assets/images/fire.png';
 
 const Sunog = (props) => { 
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Sunog = (props) => {
             <Button color="danger" onClick={toggle} style={{ marginBottom: '1rem' }}>Sunog</Button>
             <Collapse isOpen={isOpen}>
             <Card>
-            <CardBody>
+            <CardBody style={{backgroundImage: `url(${fire})`}}>
                 <Alert color="danger">
                     <h4>Sunog</h4>
                 </Alert>                

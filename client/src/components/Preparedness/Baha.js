@@ -6,6 +6,7 @@ import {
     Card,
     Alert
 } from 'reactstrap';
+import flood from '../../assets/images/flood.png';
 
 const Baha = (props) => { 
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Baha = (props) => {
             <Button color="primary" onClick={toggle} style={{ marginBottom: '1rem' }}>Baha</Button>
             <Collapse isOpen={isOpen}>
             <Card>
-            <CardBody>
+            <CardBody style={{backgroundImage: `url(${flood})`}}>
                 <Alert color="primary">
                     <h4>Baha</h4>
                 </Alert>                

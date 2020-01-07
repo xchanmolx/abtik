@@ -19,7 +19,6 @@ const Contact = () => (
         <Alert color="info">
             <h1><TextRandom /></h1>
         </Alert>
-        <hr />
         <h6>Mobile Phone</h6>
         <p>0926 530 7338 - TM</p>
         <p>0922 238 8140 - SUN</p>

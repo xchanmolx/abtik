@@ -6,6 +6,7 @@ import {
     Card,
     Alert
 } from 'reactstrap';
+import thunderstorm from '../../assets/images/thunderstorm.png';
 
 const Bagyo = (props) => { 
     const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,10 @@ const Bagyo = (props) => {
             <Button color="warning" onClick={toggle} style={{ marginBottom: '1rem' }}>Bagyo</Button>
             <Collapse isOpen={isOpen}>
             <Card>
-            <CardBody>
+            <CardBody style={{backgroundImage: `url(${thunderstorm})` }}>
                 <Alert color="warning">
                     <h4>Bagyo</h4>
-                </Alert>                
+                </Alert>              
                 <p><strong>(6) Unom ka pahimangno sa wala pa ang bagyo!</strong></p>
                 <p>1. Kanunay mag-subay sa balita bahin sa panahon.</p>
                 <p>2. Pag-pundo ug igo nga pagkaon ug tubig mainom.</p>
