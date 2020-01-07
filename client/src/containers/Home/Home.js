@@ -42,7 +42,7 @@ class Home extends Component {
                         <Advisory 
                             title="Nationwide Simultaneous Earthquake Drill (NSED)" 
                             date="Date: Thursday, March 12, 2020 at 2:00pm" 
-                            text="Responders is a must to participate the earthquake drill!" />
+                            text="Responder is a must to participate in the earthquake drill." />
                         <Advisory 
                             title="Sinulog at Bonbon, Aloguinsan" 
                             date="Date: Saturday, January 04, 2020" 
