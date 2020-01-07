@@ -3,7 +3,8 @@ import {
     Collapse,
     Button,
     CardBody,
-    Card
+    Card,
+    Alert
 } from 'reactstrap';
 
 const Bagyo = (props) => { 
@@ -17,7 +18,9 @@ const Bagyo = (props) => {
             <Collapse isOpen={isOpen}>
             <Card>
             <CardBody>
-                <h4>Bagyo</h4>
+                <Alert color="warning">
+                    <h4>Bagyo</h4>
+                </Alert>                
                 <p><strong>(6) Unom ka pahimangno sa wala pa ang bagyo!</strong></p>
                 <p>1. Kanunay mag-subay sa balita bahin sa panahon.</p>
                 <p>2. Pag-pundo ug igo nga pagkaon ug tubig mainom.</p>

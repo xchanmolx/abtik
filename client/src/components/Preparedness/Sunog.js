@@ -3,7 +3,8 @@ import {
     Collapse,
     Button,
     CardBody,
-    Card
+    Card,
+    Alert
 } from 'reactstrap';
 
 const Sunog = (props) => { 
@@ -17,7 +18,9 @@ const Sunog = (props) => {
             <Collapse isOpen={isOpen}>
             <Card>
             <CardBody>
-                <h4>Sunog</h4>
+                <Alert color="danger">
+                    <h4>Sunog</h4>
+                </Alert>                
                 <p><strong>(8) Walo ka pahimangno sa wala pa ang sunog!</strong></p>
                 <p>1. Ayaw pasobrahi ug saksak ang saksakanan.</p>
                 <p>2. Tangtanga sa saksakanan ang mga aplayanses kon wala na gamita.</p>

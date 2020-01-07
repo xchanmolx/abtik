@@ -3,7 +3,8 @@ import {
     Collapse,
     Button,
     CardBody,
-    Card
+    Card,
+    Alert
 } from 'reactstrap';
 
 const Baha = (props) => { 
@@ -17,7 +18,9 @@ const Baha = (props) => {
             <Collapse isOpen={isOpen}>
             <Card>
             <CardBody>
-                <h4>Baha</h4>
+                <Alert color="primary">
+                    <h4>Baha</h4>
+                </Alert>                
                 <p><strong>(8) Walo ka pahimangno sa wala pa ang baha!</strong></p>
                 <p>1. Paminaw sa radyo sa mga pahimangno sa emerhensiya.</p>
                 <p>2. Angay nga alerto sa posibleng pag baha, kon padayon ang pag-ulan sa pipila ka adlaw.</p>

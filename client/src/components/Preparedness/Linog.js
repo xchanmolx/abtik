@@ -3,7 +3,8 @@ import {
     Collapse,
     Button,
     CardBody,
-    Card
+    Card,
+    Alert
 } from 'reactstrap';
 
 const Linog = (props) => { 
@@ -17,7 +18,9 @@ const Linog = (props) => {
             <Collapse isOpen={isOpen}>
             <Card>
             <CardBody>
-                <h4>Linog</h4>
+                <Alert color="info">
+                    <h4>Linog</h4>
+                </Alert>
                 <p><strong>(5) Lima ka pahimangno sa wala pa ang linog!</strong></p>
                 <p>1. Pagplano - Ang labing maayong paagi sa paglikay sa katalagman.</p>
                 <p>2. Pagpangandam - Sa balay, trabahoan o sa eskwelahan.</p>
