@@ -5,7 +5,7 @@ import {
     Container,
     Row,
     Col,
-    Jumbotron
+    Alert
 } from 'reactstrap';
 
 import classes from './Preparedness.module.css';
@@ -29,11 +29,13 @@ const preparedness = () => {
         <Container className={classes.Preparedness}>
                 <Row>
                     <Col>     
-                        <Jumbotron>
+                        <Alert color="info">
                         <h3><TextRandom /></h3>
                         <p>Bagyo, Baha, Linog, ug Sunog!</p>   
-                        </Jumbotron>
-                        <p><em>Pindota ang matag kalamidad alang sa mga pahimangno.</em></p>
+                        </Alert>
+                        <Alert color="success">
+                            <p><em>Pindota ang matag kalamidad alang sa mga pahimangno.</em></p>
+                        </Alert>
                         <Bagyo />
                         <Baha />
                         <Linog />

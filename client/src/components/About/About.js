@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Random } from 'react-animated-text';
 
 import {
-    Jumbotron
+    Alert
 } from 'reactstrap';
 
 import classes from './About.module.css';
@@ -22,10 +22,10 @@ class About extends Component {
     render () {
         return (
                 <div className={classes.About}>  
-                    <Jumbotron>
+                    <Alert color="info">
                     <h1><TextRandom /></h1>
                     <h6>Andam Batok sa mga Trahedya Ingon man sa mga Katalagman</h6>
-                    </Jumbotron>
+                    </Alert>
                     <p>The MDRRMO of the Municipality of Aloguinsan spearheaded by our Municipal Mayor, Cesare Ignatius G. Moreno.</p>
                     <p>Municipal Disaster Risk Reduction and Management Office (MDRRMO) is the government organization and management of resources and responsibilities for dealing with all humanitarian aspects of emergencies, in particular preparedness, response and recovery in order to lessen the impact of disasters.</p>
                     <hr />

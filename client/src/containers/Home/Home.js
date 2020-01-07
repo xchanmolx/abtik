@@ -8,7 +8,8 @@ import {
     Container,
     Row,
     Col,
-    Jumbotron
+    Jumbotron,
+    Alert
 } from 'reactstrap';
 
 const TextRandom = () => (
@@ -36,8 +37,10 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>     
-                        <h4><TextRandom /></h4>
+                    <Col>   
+                        <Alert color="warning">
+                            <h4><TextRandom /></h4>
+                        </Alert>  
                         <hr />
                         <Advisory 
                             title="Nationwide Simultaneous Earthquake Drill (NSED)" 

@@ -3,6 +3,7 @@ import { Random } from 'react-animated-text';
 
 import classes from './Contact.module.css';
 import Footer from '../Navigation/Footer/Footer';
+import { Alert } from 'reactstrap';
 
 const TextRandom = () => (
     <Random 
@@ -13,9 +14,11 @@ const TextRandom = () => (
     effectChange={2.2} />
 );
 
-const contact = () => (
+const Contact = () => (
     <div className={classes.Contact}>
-        <h1><TextRandom /></h1>
+        <Alert color="info">
+            <h1><TextRandom /></h1>
+        </Alert>
         <hr />
         <h6>Mobile Phone</h6>
         <p>0926 530 7338 - TM</p>
@@ -30,4 +33,4 @@ const contact = () => (
     </div>
 );
 
-export default contact;
+export default Contact;

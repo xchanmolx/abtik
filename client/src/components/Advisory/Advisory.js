@@ -4,6 +4,7 @@ import {
     Container,
     Row,
     Col,
+    Alert
 } from 'reactstrap';
 
 import classes from './Advisory.module.css';
@@ -18,10 +19,12 @@ const advisory = (props) => {
             <Container className={classes.Advisory}>
                 <Row>
                     <Col>
-                        <p><strong>{props.title}</strong></p>
-                        <p>{props.date}</p>
-                        <p>{props.text}</p>
-                        <p>{props.children}</p>
+                        <Alert color="info">
+                            <p><strong>{props.title}</strong></p>
+                            <p>{props.date}</p>
+                            <p>{props.text}</p>
+                            <p>{props.children}</p>
+                        </Alert>
                     </Col>
                 </Row>
             </Container>
