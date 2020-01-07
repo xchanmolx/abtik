@@ -40,6 +40,10 @@ class Home extends Component {
                         <h4><TextRandom /></h4>
                         <hr />
                         <Advisory 
+                            title="Nationwide Simultaneous Earthquake Drill (NSED)" 
+                            date="Date: Thursday, March 12, 2020 at 2:00pm" 
+                            text="Responders is a must to participate the earthquake drill!" />
+                        <Advisory 
                             title="Sinulog at Bonbon, Aloguinsan" 
                             date="Date: Saturday, January 04, 2020" 
                             text="Responders are in need." />
