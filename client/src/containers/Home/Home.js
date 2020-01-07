@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import classes from './Home.module.css';
 import Footer from '../../components/Navigation/Footer/Footer';
+import Advisory from '../../components/Advisory/Advisory';
 import { Random } from 'react-animated-text';
 import {
     Container,
@@ -12,7 +13,7 @@ import {
 
 const TextRandom = () => (
     <Random 
-    text="Announcements"
+    text="Announcement / Advisory"
     effect="stretch" 
     effectDirection="up"
     effectDuration={0.9}
@@ -38,10 +39,10 @@ class Home extends Component {
                     <Col>     
                         <h4><TextRandom /></h4>
                         <hr />
-                        <p><strong>SINULOG at Bonbon, Aloguinsan</strong></p>
-                        <p>Date: Saturday, January 04, 2020</p>
-                        <p>Responders are in need.</p>
-                        <hr />
+                        <Advisory 
+                            title="Sinulog at Bonbon, Aloguinsan" 
+                            date="Date: Saturday, January 04, 2020" 
+                            text="Responders are in need." />
                     </Col>
                 </Row>
                 <Footer />

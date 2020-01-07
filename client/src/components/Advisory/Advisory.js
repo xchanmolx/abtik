@@ -1,29 +1,30 @@
 import React from 'react';
-import { Random } from 'react-animated-text';
 
 import {
     Container,
     Row,
     Col,
-    Jumbotron
 } from 'reactstrap';
 
-import classes from './Preparedness.module.css';
-import Footer from '../Navigation/Footer/Footer';
+import classes from './Advisory.module.css';
 
-const TextRandom = () => (
-    <Random 
-    text="Pagpangandam sa"
-    effect="stretch" 
-    effectDirection="up"
-    effectDuration={0.9}
-    effectChange={2.2} />
-);
+const advisory = (props) => {
+    let title = '';
+    let date = '';
+    let text = '';
 
-const advisory = () => {
     return (
         <div>
-            
+            <Container className={classes.Advisory}>
+                <Row>
+                    <Col>
+                        <p><strong>{props.title}</strong></p>
+                        <p>{props.date}</p>
+                        <p>{props.text}</p>
+                        <p>{props.children}</p>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 }
