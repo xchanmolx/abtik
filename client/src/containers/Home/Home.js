@@ -41,7 +41,6 @@ class Home extends Component {
                         <Alert color="warning">
                             <h4><TextRandom /></h4>
                         </Alert>  
-                        <hr />
                         <Advisory 
                             title="Nationwide Simultaneous Earthquake Drill (NSED)" 
                             date="Date: Thursday, March 12, 2020 at 2:00pm" 

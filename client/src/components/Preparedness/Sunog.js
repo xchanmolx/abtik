@@ -4,7 +4,8 @@ import {
     Button,
     CardBody,
     Card,
-    Alert
+    Alert,
+    Badge
 } from 'reactstrap';
 import fire from '../../assets/images/fire.png';
 
@@ -22,16 +23,16 @@ const Sunog = (props) => {
                 <Alert color="danger">
                     <h4>Sunog</h4>
                 </Alert>                
-                <p><strong>(8) Walo ka pahimangno sa wala pa ang sunog!</strong></p>
+                <p><strong>(8) Walo ka pahimangno <Badge color="warning">sa wala</Badge> pa ang sunog!</strong></p>
                 <p>1. Ayaw pasobrahi ug saksak ang saksakanan.</p>
                 <p>2. Tangtanga sa saksakanan ang mga aplayanses kon wala na gamita.</p>
-                <p>3. Susiha ang <strong>gas stove</strong> o tangke sa gasul kon may hungaw.</p>
-                <p>4. Ingna ang mga bata nga magpalayo sa likido nga daling mosilaab, o mag-duladulag <strong>lighter</strong> o posporo.</p>
+                <p>3. Susiha ang <Badge color="info">gas stove</Badge> o tangke sa gasul kon may hungaw.</p>
+                <p>4. Ingna ang mga bata nga magpalayo sa likido nga daling mosilaab, o mag-duladulag <Badge color="info">lighter</Badge> o posporo.</p>
                 <p>5. Ayaw panigarilyo kon naa sa higdaanan.</p>
                 <p>6. Mag-amping pirme samtang magluto.</p>
                 <p>7. Ayaw pasagdai ang nagsigang kandila nga walay nagbantay.</p>
-                <p>8. Sunda gayod ang pasidaan nga <strong>"No Smoking"</strong> o dili manigarilyo.</p>
-                <p><strong>(7) Pito ka pahimangno sa panahon sa sunog!</strong></p>
+                <p>8. Sunda gayod ang pasidaan nga <Badge color="info">"No Smoking"</Badge> o dili manigarilyo.</p>
+                <p><strong>(7) Pito ka pahimangno <Badge color="warning">sa panahon</Badge> sa sunog!</strong></p>
                 <p>1. <strong>Kon naa sulod sa building</strong></p>
                 <p>(Opisina, shopping mall, ug uban pa), sarya kon asa ang "Fire Exit".</p>
                 <p>2. <strong>Gamit ug fire extinguisher</strong></p>
@@ -46,7 +47,7 @@ const Sunog = (props) => {
                 <p>Kon masunog ang sinina ayawg dagan... ("Hunong, Higda, ug Ligid").</p>
                 <p>7. <strong>Singgit</strong></p>
                 <p>Singgit ug pangayog tabang.</p>
-                <p><strong>(4) Upat ka pahimangno sa humana ang sunog!</strong></p>
+                <p><strong>(4) Upat ka pahimangno <Badge color="warning">sa humana</Badge> ang sunog!</strong></p>
                 <p>1. Ayawg sulod sa nagubang balay o apartment gawas kon giingnan sa departamento sa sunog nga pwede na.</p>
                 <p>2. Pagmatngon sa mga guba sa sunog, ang gubang atop ug salog posibleng mohagsa.</p>
                 <p>3. Seguradohon sa mga bombero nga luwas nang gamiton ang linya sa tubig, koryente ug gas.</p>
