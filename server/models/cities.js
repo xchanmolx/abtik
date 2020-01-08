@@ -2,7 +2,7 @@ const db = require('../database');
 
 class Cities {
     static retrieveAll (callback) {
-      db.query('SELECT city_name FROM cities', (err, res) => {
+      db.query('SELECT city_name FROM cities ORDER BY city_name', (err, res) => {
         if (err.error)
           return callback(err);
         callback(res);
