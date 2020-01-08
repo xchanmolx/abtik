@@ -24,9 +24,9 @@ const Linog = (props) => {
                     <h4>Linog</h4>
                 </Alert>
                 <p><strong>(5) Lima ka pahimangno <Badge color="danger">sa wala</Badge> pa ang linog!</strong></p>
-                <p>1. <Badge color="info">Pagplano - Ang labing maayong paagi sa paglikay sa katalagman.</Badge></p>
+                <p>1. <strong>Pagplano - Ang labing maayong paagi sa paglikay sa katalagman.</strong></p>
                 <p>Sarya kon asa sa inyong lugar ang kuyaw, pangayo ug impormasyon mahitungod sa mapa sa geo-hazard sa inyong lugar.</p>
-                <p>2. <Badge color="info">Pagpangandam - Sa balay, trabahoan o sa eskwelahan.</Badge></p>
+                <p>2. <strong>Pagpangandam - Sa balay, trabahoan o sa eskwelahan.</strong></p>
                 <p>Ihigot o i-bolt sa bungbong ang mga bug-at nga mga muwebles/kabinet, paneguroa nga lig-on ang pagkabit sa nagbitay nga mga butang sama sa bentilador sa kisame ug aranya. Ibutang ang mabuak nga butang, makahilo nga kemikal ug daling mosilaab nga likido sa labing ubos ug luwas nga estante.</p>
                 <p>3. Sarya kon asa ang mga agianan pagawas - Fire extinguisher, gamit sa pagpanambal, alarmahan ug mga pasilidad sa komunikasyon sama sa telepono.</p>
                 <p>4. Tun-i ang paggamit niini sa dili pa moabot ang katalagman.</p>
@@ -44,7 +44,7 @@ const Linog = (props) => {
                 <p><strong>(3) Tulo ka pahimangno <Badge color="danger">sa humana</Badge> ang linog!</strong></p>
                 <p>1. <Badge color="info">Ayaw</Badge> paggamit ug elebitor, pagsulod sa mga guba nga building,paggamit ug telepono gawas kon gikinahanglan, ug ayaw kataranta.</p>
                 <p>2. <Badge color="info">Susiha</Badge> ang kaugalingon ug ang uban basin nasamad, ang tubo sa tubig ug linya sa koryente basin nadaot, mga kemikal basin naay makahilong kemikal ug daling mosilaab nga likido nga miagas o mitulo, basin may sunog ug palonga dayon para dili mokatap.</p>
-                <p>3. <Badge color="info">Kon matanggong sa natumpag nga estruktura</Badge></p>
+                <p>3. <strong>Kon matanggong sa natumpag nga estruktura</strong></p>
                 <p>Ayaw pagdagkot ug posporo, ayawg lihok o paphaon ang abog, taboni ang imong baba sa panyo o panapton, pukpoka ang tubo o bungbong para matultolan dayon sa mga tigreskyu. Kon dunay pito gamitakini, ayaw pagsinggit basin makasimhot kag daghang abog, singgit lang kon wala nay gayoy laing paagi.</p>
             </CardBody>
             </Card>

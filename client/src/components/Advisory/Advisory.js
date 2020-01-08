@@ -4,7 +4,8 @@ import {
     Container,
     Row,
     Col,
-    Alert
+    Alert,
+    Badge
 } from 'reactstrap';
 
 import classes from './Advisory.module.css';
@@ -12,6 +13,7 @@ import classes from './Advisory.module.css';
 const advisory = (props) => {
     let title = '';
     let date = '';
+    let time = '';
     let text = '';
 
     return (
@@ -21,7 +23,8 @@ const advisory = (props) => {
                     <Col>
                         <Alert color="info">
                             <p><strong>{props.title}</strong></p>
-                            <p>{props.date}</p>
+                            <p><Badge color="warning">Date:</Badge> {props.date}</p>
+                            <p><Badge color="warning">Time:</Badge> {props.time}</p>
                             <p>{props.text}</p>
                             <p>{props.children}</p>
                         </Alert>
