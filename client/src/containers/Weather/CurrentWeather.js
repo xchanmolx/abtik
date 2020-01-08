@@ -86,7 +86,7 @@ class CurrentWeather extends Component {
                         <p className="lead">The current weather for your favorite municipalities or cities!</p>
                         <InputGroup>
                             <Input 
-                                placeholder="New municipality name or city name, e.g. Aloguinsan"
+                                placeholder="New municipality name or city name, e.g. Aloguinsan, PH"
                                 value={this.state.newCityName}
                                 onChange={this.handleInputChange}
                             />
