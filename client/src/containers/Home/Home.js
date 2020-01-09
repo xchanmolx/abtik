@@ -28,7 +28,7 @@ class Home extends Component {
                 <Row>
                     <Col>
                         <Jumbotron>                  
-                            <h3>Welcome to ABTIK, Rescue</h3>
+                            <h3>Welcome to ABTIK Rescue</h3>
                             <p>Andam Batok sa mga Trahedya Ingon man sa mga Katalagman</p>
                             <hr />
                             <h5>Municipality of Aloguinsan</h5>

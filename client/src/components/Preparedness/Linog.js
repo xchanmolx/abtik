@@ -19,7 +19,7 @@ const Linog = (props) => {
             <Button color="info" onClick={toggle} style={{ marginBottom: '1rem' }}>Linog</Button>
             <Collapse isOpen={isOpen}>
             <Card>
-            <CardBody style={{backgroundImage: `url(${earthquake})`, color: '#FF851B'}}>
+            <CardBody style={{backgroundImage: `url(${earthquake})`}}>
                 <Alert color="info">
                     <h4>Linog</h4>
                 </Alert>

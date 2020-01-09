@@ -9,7 +9,8 @@ import {
     Input,
     Button,
     InputGroupAddon,
-    FormGroup
+    FormGroup,
+    Badge
 } from 'reactstrap';
 
 import classes from './CurrentWeather.module.css';
@@ -83,7 +84,6 @@ class CurrentWeather extends Component {
                 <Col>
                     <Jumbotron>
                         <h1 className="display-3"><TextRandom /></h1>
-                        <p className="lead">The current weather for your favorite municipalities or cities!</p>
                         <InputGroup>
                             <Input 
                                 placeholder="New municipality name or city name, e.g. Aloguinsan, PH"
@@ -100,6 +100,7 @@ class CurrentWeather extends Component {
             <Row>
                 <Col>
                     <h1 className="display-5">Current Weather</h1>
+                    <p>Source: <a href="https://openweathermap.org/" target="_blank" rel="noopener noreferrer"><Badge color="info">openweathermap.org</Badge></a></p>
                     <FormGroup>
                         <Input type="select" onChange={this.handleChangeCity}>
                             { this.state.cityList.length === 0 && <option>No municipalities or cities added yet.</option> }
