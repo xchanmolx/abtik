@@ -31,7 +31,7 @@ const Contact = () => (
         </Alert>
         <div className="p-3 bg-info my-2 rounded">
             <Alert color="info">
-                Click the corresponding district to view the contact numbers.
+                Click on the city or municipality to view their contact information.
             </Alert>
             <Aloguinsan />
             <Pinamungajan />
