@@ -6,6 +6,9 @@ import {
 } from 'reactstrap';
 
 import classes from './About.module.css';
+import cssLogo from '../Logo/css-logo.module.css';
+import AbtikLogo from '../Logo/Abtik-logo';
+import AlogLogo from '../Logo/Abtik-logo';
 import Footer from '../Navigation/Footer/Footer'
 
 const TextRandom = () => (
@@ -23,7 +26,13 @@ class About extends Component {
         return (
                 <div className={classes.About}>                      
                     <div className="p-3 bg-info my-2 rounded">
-                    <Alert color="secondary">
+                    <Alert color="secondary" >
+                        <div className={cssLogo.LogoAlog}>
+                        <AlogLogo />
+                        </div>
+                        <div className={cssLogo.LogoAbtik}>
+                        <AbtikLogo />
+                        </div>
                         <p>Republic of the Philippines<br />
                         Province of Cebu<br />
                         Municipality of <strong><TextRandom /></strong></p>      

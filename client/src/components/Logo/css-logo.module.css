@@ -1,0 +1,21 @@
+.LogoAbtik {
+    height: 130px;   
+    float: right; 
+
+}
+
+.LogoAbtik img {
+    height: 130px;
+    float: right;
+}
+
+.LogoAlog {
+    height: 130px;   
+    float: left; 
+
+}
+
+.LogoAlog img {
+    height: 130px;
+    float: left;
+}
