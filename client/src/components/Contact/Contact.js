@@ -3,17 +3,21 @@ import { Random } from 'react-animated-text';
 
 import classes from './Contact.module.css';
 import Footer from '../Navigation/Footer/Footer';
-import { 
-    Alert,
-    Toast,
-    ToastHeader,
-    ToastBody,
-    Badge
+import Aloguinsan from './Aloguinsan';
+import Pinamungajan from './Pinamungajan';
+import Balamban from './Balamban';
+import Asturias from './Asturias';
+import Tuburan from './Tuburan';
+import Barili from './Barili';
+import Toledo from './Toledo';
+
+import {
+    Alert
 } from 'reactstrap';
 
 const TextRandom = () => (
     <Random 
-    text="CONTACT"
+    text="3rd District Emergency Numbers"
     effect="stretch" 
     effectDirection="up"
     effectDuration={0.9}
@@ -21,35 +25,21 @@ const TextRandom = () => (
 );
 
 const Contact = () => (
-    <div className={classes.Contact}>
-        <Alert color="warning" style={{textAlign: 'center'}}>
-            <h1><TextRandom /></h1>            
-        </Alert>
+    <div className={classes.Contact}>        
         <Alert color="danger" style={{textAlign: 'center'}}>
-            <h3>3rd District Emergency Numbers</h3>
+            <h3><TextRandom /></h3>
         </Alert>
         <div className="p-3 bg-info my-2 rounded">
-            <Toast>
-            <ToastHeader>
-                <h4>ALOGUINSAN</h4>
-            </ToastHeader>
-            <ToastBody>
-            <Badge color="warning"><h6>Rescue - ABTIK</h6></Badge>
-            <h6>Mobile Phone</h6>
-                0926-530-7338
-                <p>0922-238-8140</p>
-            <h6>Telephone</h6>
-                <p>032-469-9041</p>
-            <h6>Email Address</h6>
-                <p>aloguinsandrrmo@gmail.com</p>
-            <hr />
-            <Badge color="warning"><h6>POLICE</h6></Badge>
-            <h6>Mobile Phone</h6>
-                <p>0908-916-7215</p>
-            <h6>Telephone</h6>
-                032-469-9909<br />
-            </ToastBody>
-            </Toast>
+            <Alert color="info">
+                Click the corresponding district to view the contact numbers.
+            </Alert>
+            <Aloguinsan />
+            <Pinamungajan />
+            <Balamban />
+            <Asturias />
+            <Tuburan />
+            <Barili />
+            <Toledo />
         </div>
         <Footer />
     </div>
