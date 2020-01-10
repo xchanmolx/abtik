@@ -8,38 +8,37 @@ import {
     Alert
 } from 'reactstrap';
 
-import classes from './Preparedness.module.css';
+import classes from './Hazard.module.css';
 import Footer from '../Navigation/Footer/Footer';
-import Bagyo from './Bagyo';
-import Baha from './Baha';
-import Linog from './Linog';
-import Sunog from './Sunog';
+import Flood from './Flood';
+import Landslide from './Landslide';
+import Liquefaction from './Liquefaction';
+import StormSurge from './StormSurge';
 
 const TextRandom = () => (
     <Random 
-    text="Pagpangandam sa"
+    text="Hazard Map"
     effect="stretch" 
     effectDirection="up"
     effectDuration={0.9}
     effectChange={2.2} />
 );
 
-const Preparedness = () => {
+const Hazard = () => {
     return (
-        <Container className={classes.Preparedness}>
+        <Container className={classes.Hazard}>
                 <Row>
                     <Col>     
                         <Alert color="info">
                         <h3><TextRandom /></h3>
-                        <p>Bagyo, Baha, Linog, ug Sunog!</p>   
                         </Alert>
                         <Alert color="success">
-                            <p><em>Pindota ang matag kalamidad alang sa mga pahimangno.</em></p>
+                            <p><em>Click on the hazard to view their graphical information.</em></p>
                         </Alert>
-                        <Bagyo />
-                        <Baha />
-                        <Linog />
-                        <Sunog />
+                        <Flood />
+                        <Landslide />
+                        <Liquefaction />
+                        <StormSurge />
                     </Col>
                 </Row>
             <Footer />
@@ -47,4 +46,4 @@ const Preparedness = () => {
     );
 }
 
-export default Preparedness;
+export default Hazard;
