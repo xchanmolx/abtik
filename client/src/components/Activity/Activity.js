@@ -29,7 +29,7 @@ const Activity = () => {
                         <Alert color="info">
                         <h3><TextRandom /></h3>
                         </Alert>
-                        <PPAimages />
+                        <PPAimages /> 
                     </Col>
                 </Row>
             <Footer />
