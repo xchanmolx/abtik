@@ -9,6 +9,7 @@ import CurrentWeather from '../src/containers/Weather/CurrentWeather';
 import Preparedness from './components/Preparedness/Preparedness';
 import Hazard from './components/Hazard/Hazard';
 import Activity from './components/Activity/Activity';
+import CitizenCharter from './components/CitizenCharter/CitizenCharter';
 
 class App extends Component { 
   
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path="/preparedness" component={Preparedness} />
           <Route path="/hazard" component={Hazard} />
           <Route path="/activity" component={Activity} />
+          <Route path="/citizen" component={CitizenCharter} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/" exact component={Home} />            

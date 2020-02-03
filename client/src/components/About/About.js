@@ -61,6 +61,19 @@ class About extends Component {
                             <li>Directory of emergency numbers</li>
                         </ul>
                     </Alert>
+                    <div className="p-3 bg-info my-2 rounded">
+                        <Alert color="secondary">
+                            <strong>VISION</strong>
+                            <p>
+                                The Municipality of Aloguinsan will develop a culture of resiliency among the constituents who have knowledge and capacity in preparedness and effective response during disasters.
+                            </p>
+                            <hr />
+                            <strong>MISSION</strong>
+                            <p>
+                                Continuous enhancement and upgrade of municipality's risk reduction capabilities and disaster preparedness will carry on thru various projects, programs and activities aiming to develop a risk conscious and disaster resilient community in partnership with other sectors and agencies.
+                            </p>
+                        </Alert>
+                    </div>
                     </div>
                     <Footer />
                 </div>

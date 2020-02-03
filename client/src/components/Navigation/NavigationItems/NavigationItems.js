@@ -13,6 +13,7 @@ const NavigationItems = (props) => {
         <NavigationItem link="/preparedness"><Icon type="cloud" /> Preparedness</NavigationItem>
         <NavigationItem link="/hazard"><Icon type="heat-map" /> Hazard Map</NavigationItem>
         <NavigationItem link="/activity"><Icon type="picture" /> Activities</NavigationItem>
+        <NavigationItem link="/citizen"><Icon type="interaction" /> Citizen's Charter</NavigationItem>
         <NavigationItem link="/about"><Icon type="idcard" /> About</NavigationItem>
         <NavigationItem link="/contact"><Icon type="phone" /> Contact</NavigationItem>
         </ul>       
