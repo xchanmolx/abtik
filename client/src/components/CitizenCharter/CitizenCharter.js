@@ -35,7 +35,7 @@ const CitizenCharter = (props) => {
             <Alert color="warning" style={{textAlign: 'center'}}>
             <h2><TextRandom /></h2>
             </Alert>
-            <Button color="info" onClick={toggle} style={{ marginBottom: '1rem' }}>click to SERVICES</Button>
+            <Button color="info" onClick={toggle} style={{ marginBottom: '1rem' }}>SERVICES</Button>
             <Collapse isOpen={isOpen}>
             <Card>
             <CardBody>
