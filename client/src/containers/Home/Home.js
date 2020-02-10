@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import classes from './Home.module.css';
 import Footer from '../../components/Navigation/Footer/Footer';
 import Advisory from '../../components/Advisory/Advisory';
+import NcovImg from './NCOVImages';
 import { Random } from 'react-animated-text';
 import {
     Container,
@@ -37,10 +38,11 @@ class Home extends Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>   
+                    <Col>
                         <Alert color="warning">
                             <h4><TextRandom /></h4>
-                        </Alert>  
+                        </Alert>
+                        <NcovImg />
                         <Advisory 
                             title="NSED 1st Quarter, Nationwide Simultaneous Earthquake Drill" 
                             date="Thursday, March 12, 2020" 
